@@ -1,0 +1,47 @@
+{
+  "name": "template",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "turbo vite.build",
+    "check-types": "tsgo --noEmit",
+    "dev": "vite --host",
+    "lint": "pnpm biome check --no-errors-on-unmatched --files-ignore-unknown=true",
+    "prepare": "is-ci || lefthook install",
+    "vite.build": "vite build"
+  },
+  "dependencies": {
+    "react": "19.2.1",
+    "react-dom": "19.2.1",
+    "react-router-dom": "7.10.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.17",
+    "@total-typescript/ts-reset": "0.6.1",
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@typescript/native-preview": "7.0.0-dev.20251207.1",
+    "@vitejs/plugin-react": "5.1.1",
+    "autoprefixer": "10.4.22",
+    "biome": "0.3.3",
+    "is-ci": "4.1.0",
+    "lefthook": "2.0.8",
+    "lightningcss": "1.30.2",
+    "postcss": "8.5.6",
+    "prettier": "3.7.4",
+    "prettier-plugin-packagejson": "2.5.20",
+    "prettier-plugin-tailwindcss": "0.7.2",
+    "sort-package-json": "3.5.0",
+    "tailwindcss": "4.1.17",
+    "turbo": "2.6.3",
+    "typescript": "5.9.3",
+    "vite": "7.2.6",
+    "vite-plugin-mkcert": "1.17.9",
+    "vite-tsconfig-paths": "5.1.4"
+  },
+  "packageManager": "pnpm@10.24.0",
+  "engines": {
+    "node": ">=24"
+  }
+}

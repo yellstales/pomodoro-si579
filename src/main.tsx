@@ -9,14 +9,19 @@ const container = document.getElementById("root") as HTMLElement;
 
 const root = createRoot(container);
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+      children: routes,
+      errorElement: <div>error</div>,
+    },
+  ],
   {
-    path: "/",
-    element: <App />,
-    children: routes,
-    errorElement: <div>error</div>,
+    basename: "/pomodoro-si579/",
   },
-]);
+);
 
 root.render(
   <StrictMode>

@@ -5,7 +5,7 @@ import tsPaths from "vite-tsconfig-paths";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  base: "./",
+  base: "/pomodoro-si579/",
   server: {
     port: 5173,
   },

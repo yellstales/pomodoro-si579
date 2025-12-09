@@ -45,6 +45,7 @@ export default function Index() {
           </div>
         )}
       </div>
+      <div>Created by Yelnaz Rysbek (yrysbek) for SI579, Fall 2025</div>
     </div>
   );
 }

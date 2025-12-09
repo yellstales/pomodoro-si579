@@ -15,9 +15,14 @@
     min-height: 100vh;
     background: linear-gradient(135deg, #a7afd5 0%, #af93ca 100%);
     display: flex;
+    flex-direction: column;
+    gap: 2rem;
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    color: #374151;
+    font-family: "futura-100", sans-serif;
+    font-weight: 500;
   }
 
   .plate {

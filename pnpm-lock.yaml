@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      pnpm:
+        specifier: ^10.24.0
+        version: 10.25.0
       react:
         specifier: 19.2.1
         version: 19.2.1
@@ -37,7 +40,7 @@ importers:
         specifier: 7.0.0-dev.20251207.1
         version: 7.0.0-dev.20251207.1
       '@vitejs/plugin-react':
-        specifier: 5.1.1
+        specifier: ^5.1.1
         version: 5.1.1(vite@7.2.6(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.1))
       autoprefixer:
         specifier: 10.4.22
@@ -79,7 +82,7 @@ importers:
         specifier: 5.9.3
         version: 5.9.3
       vite:
-        specifier: 7.2.6
+        specifier: ^7.2.6
         version: 7.2.6(@types/node@24.10.1)(jiti@2.6.1)(lightningcss@1.30.2)(yaml@2.8.1)
       vite-plugin-mkcert:
         specifier: 1.17.9
@@ -1237,6 +1240,11 @@ packages:
   picomatch@4.0.3:
     resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
     engines: {node: '>=12'}
+
+  pnpm@10.25.0:
+    resolution: {integrity: sha512-XoJjkCevN8+DIGG8xtY5whljRIjg8rrr54UCink957Ul/80/f/V09emGBlTgmP6FK6isXdXO/hdn0joCCpL1AQ==}
+    engines: {node: '>=18.12'}
+    hasBin: true
 
   postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
@@ -2623,6 +2631,8 @@ snapshots:
   picocolors@1.1.1: {}
 
   picomatch@4.0.3: {}
+
+  pnpm@10.25.0: {}
 
   postcss-value-parser@4.2.0: {}
 

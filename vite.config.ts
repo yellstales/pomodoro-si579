@@ -10,9 +10,9 @@ export default defineConfig({
   },
   plugins: [
     react(),
-    mkcert({
-      source: "coding",
-    }),
+    // mkcert({
+    //   source: "coding",
+    // }),
     tsPaths(),
     tailwindcss(),
   ],

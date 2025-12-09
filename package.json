@@ -8,9 +8,11 @@
     "dev": "vite --host",
     "lint": "pnpm biome check --no-errors-on-unmatched --files-ignore-unknown=true",
     "prepare": "is-ci || lefthook install",
+    "preview": "vite preview",
     "vite.build": "vite build"
   },
   "dependencies": {
+    "pnpm": "^10.24.0",
     "react": "19.2.1",
     "react-dom": "19.2.1",
     "react-router-dom": "7.10.1"
@@ -22,7 +24,7 @@
     "@types/react": "19.2.7",
     "@types/react-dom": "19.2.3",
     "@typescript/native-preview": "7.0.0-dev.20251207.1",
-    "@vitejs/plugin-react": "5.1.1",
+    "@vitejs/plugin-react": "^5.1.1",
     "autoprefixer": "10.4.22",
     "biome": "0.3.3",
     "is-ci": "4.1.0",
@@ -36,7 +38,7 @@
     "tailwindcss": "4.1.17",
     "turbo": "2.6.3",
     "typescript": "5.9.3",
-    "vite": "7.2.6",
+    "vite": "^7.2.6",
     "vite-plugin-mkcert": "1.17.9",
     "vite-tsconfig-paths": "5.1.4"
   },
